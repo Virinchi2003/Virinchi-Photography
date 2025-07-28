@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Virinchi Photography </title>
+  <!-- Google Fonts: Poppins (as used on the reference site) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Animate On Scroll CSS (optional for section animations) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">VJ</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- HERO SLIDER -->
+  <header id="home" class="hero-slider">
+    <div class="slide active" style="background-image: url('https://live.staticflickr.com/65535/54685268070_28089fb5af_b.jpg')">
+        
+      <div class="slide-content">
+        <h1>Welcome to the Wild</h1>
+        <p>Capturing the beauty of wildlife, one frame at a time.</p>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://live.staticflickr.com/65535/54685165533_798be7c716_b.jpg')">
+      <div class="slide-content">
+        
+        <h1>Nature's Wonders</h1>
+        <p>Experience untamed beauty through the lens.</p>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('https://live.staticflickr.com/65535/54684225362_51a6c999da_b.jpg')">
+      <div class="slide-content">
+        <h1>Product Stories</h1>
+        <p>Crafting visual narratives that resonate.</p>
+      </div>
+    </div>
+     <div class="slide" style="background-image: url('https://live.staticflickr.com/65535/54685213514_f9872b047e_b.jpg')">
+      <div class="slide-content">
+        <h1>Product Stories</h1>
+        <p>Crafting visual narratives that resonate.</p>
+      </div>
+    </div>
+       <div class="slide" style="background-image: url('https://live.staticflickr.com/65535/54685324334_0a372ab474_b.jpg')">
+      <div class="slide-content">
+        <h1>Into the Wild</h1>
+        <p>Discover stories behind every photograph.</p>
+      </div>
+    </div>
+      </div>
+       <div class="slide" style="background-image: url('https://live.staticflickr.com/65535/54685342779_96d9e264e6_b.jpg')">
+      <div class="slide-content">
+        <h1>Into the Wild</h1>
+        <p>Discover stories behind every photograph.</p>
+      </div>
+    </div>
+    <!-- Slider controls -->
+    <a class="slider-btn prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="slider-btn next" onclick="changeSlide(1)">&#10095;</a>
+    <div class="dots">
+      <span onclick="currentSlide(1)"></span>
+      <span onclick="currentSlide(2)"></span>
+      <span onclick="currentSlide(3)"></span>
+    </div>
+  </header>
+
+  <!--about sectoion-->
+<section id="about" class="about-section" data-aos="fade-up">
+  <div class="about-content">
+    <div class="about-photo">
+      <img src="C:\Users\Virinchi\Documents\virinchi-portfolio\assests\profile1.jpg" alt="Virinchi's Profile Photo">
+    </div>
+    <div>
+      <h2>About Me</h2>
+      <p>
+        I'm Virinchi, pursuing my Bachelor of Technology and a passionate wildlife photographer committed to connecting people with nature through impactful imagery.
+        Learning a skill which creates unbreakable memories. My work is driven by a deep passion for photography and a relentless pursuit of perfection.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- GALLERY SECTION -Wild life -->
+  <section id="gallery" class="gallery-section" data-aos="fade-up">
+    <h2>Gallery - Wild life</h2>
+    <div class="gallery">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_5025.JPG" alt="Wildlife 1">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_5342.JPEG.jpg" alt="Wildlife 2">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_5038.JPG" alt="Wildlife 3">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\PSX_20250128_0937321.jpg" alt="Wildlife 4">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_5387.JPG" alt="Wildlife 5">
+    <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_5350.JPEG.jpg" alt="Wildlife 6">   
+    </div>
+  </section>
+
+    <!-- GALLERY SECTION - Architecture-->
+  <section id="gallery" class="gallery-section" data-aos="fade-up">
+    <h2>Architectural Tales — Timeless Perspectives</h2>
+    <div class="gallery">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_3405.png" alt="Wildlife 1">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_3432-2.png" alt="Wildlife 2">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_3404.png" alt="Wildlife 3">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_3457.png" alt="Wildlife 4">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_3451.png" alt="Wildlife 5">
+    <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_33041.jpg" alt="Wildlife 6">   
+    </div>
+  </section>
+
+    <!-- GALLERY SECTIOn -Products-->
+  <section id="gallery" class="gallery-section" data-aos="fade-up">
+    <h2>Product Stories — Crafting Visual Narratives</h2>
+    <div class="gallery">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_6266.JPG" alt="Wildlife 1">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_6265.JPG" alt="Wildlife 2">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_6215.JPG" alt="Wildlife 3">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_4077.HEIC" alt="Wildlife 4">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_2361.HEIC" alt="Wildlife 5">
+    <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_6269.JPG" alt = "wildlife 6">
+    </div>
+  </section>
+
+  
+    <!-- GALLERY SECTIOn -Events--> 
+  <section id="gallery" class="gallery-section" data-aos="fade-up">
+    <h2>Event Captures — Moments in Focus</h2>
+    <div class="gallery">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_1132.JPG" alt="Wildlife 1">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_4078.HEIC" alt="Wildlife 2">
+      <img src="C:\Users\Virinchi\Documents\Personal_Portfolio\assests\IMG_1653.JPG" alt="Wildlife 3">
+    </div>
+  </section>
+
+  <!--contact section -->
+<section id="contact" class="contact-section" data-aos="fade-up">
+  <h2>Contact</h2>
+  <form>
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <div class="contact-socials">
+    <a href="https://instagram.com/virinchijackson" target="_blank" aria-label="Instagram">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
+    </a>
+    <a href="https://x.com/VirinchiJackson" target="_blank" aria-label="Twitter">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" />
+    </a>
+    <a href="https://linkedin.com/in/virinchilankadasari" target="_blank" aria-label="LinkedIn">
+      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
+    </a>
+  </div>
+</section>
+
+
+  <!-- SCRIPTS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <footer class="site-footer">
+  &copy; Virinchi 2025. All Rights Reserved.
+</footer>
+
+</body>
+</html>
